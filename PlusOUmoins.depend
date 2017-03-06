@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1488812692 source:c:\users\notfunny\documents\c project\variables\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
