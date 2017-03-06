@@ -8,15 +8,15 @@ int main()
   int continuer = 0;
   int nombreDeCoup = 1;
   int nombreEntre = 0;
-  srand(time(NULL)); //on initialise pour g�n�rer l'entier al�atoire
+  srand(time(NULL)); //on initialise pour générer l'entier aléatoire
   const int  MIN = 1;
   int nombreMax = 100;
   int difficulte = 1;
 
-  do {
+  do { // boucle du jeu dont l'utilisateur choisi ou non sa réitération
   printf("Choisissez un mode de difficulte : \n 1. maximum = 100 \n 2. maximum = 1000 \n 3. maximum = 10000 \n ");
   scanf("%d", &difficulte);
-  switch(difficulte) //v�rifie
+  switch(difficulte) 
   {
   case 1:
     nombreMax = 100;
@@ -35,11 +35,11 @@ int main()
 
 
 
-      int nombreMystere = (rand() % (nombreMax - MIN +1)) + MIN;
+      int nombreMystere = (rand() % (nombreMax - MIN +1)) + MIN; //génère un entier aléatoirement.
 
 
 
-    do
+    do // 
     {
 
 
